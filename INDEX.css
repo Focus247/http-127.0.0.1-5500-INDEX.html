@@ -1,0 +1,110 @@
+.avater{
+    border-radius: 50%;
+    width: 8em;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(123, 123, 184);
+    font-family: system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;;
+
+}
+
+.badge{
+    background: rgb(62, 61, 130);
+    color: rgb(225, 225, 225);
+    border-radius: 25px;
+    width: 7%;
+    height: 45px;
+    border-width: 4px;
+    border-color: #7075c7ef;
+    position: fixed;
+}
+
+.content{
+    max-width: 800px;
+    margin: auto;
+    background-color: rgb(123, 123, 184);
+    padding: 10px;
+}
+
+.svg-1{
+    margin-top: 17px;
+    color: black;
+
+}
+
+.w-6{
+    width: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    --text-opacity: 1;
+    font-size: 1.125rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.h-6{
+    height: 1.5em;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.picture{
+    width: 50%;
+}
+
+h2{
+    color: black;
+    font-weight: 400;
+    font-family: system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;;
+}
+
+.p-2{
+    font-size: 1.125rem;
+    font-family: Barlow,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    color: black;
+    line-height: 2;
+}
+
+.p-3{
+    margin-top: .875rem;
+    color: black;
+
+}
+
+.image{
+    margin-top: 10%;
+    margin-left: -17%;
+    background-color: black;
+}
+
+.wrapper{
+    padding-right: 15rem;
+    margin-top: 1rem;
+}
+
+.container{
+    display: flex;
+}
+
+.shadow{
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+@media screen and (max-width:600px){
+    .image{
+        margin-left: -30%;
+    }
+    .wrapper{
+        width: 50%;
+    }
+}
